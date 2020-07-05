@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+/* makes the entire website darkmode */
+body {
+    background-color:rgb(20, 20, 20);
+    position: relative;
+}
+/* width ScrollBar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* scroll Track COlor*/
+::-webkit-scrollbar-track {
+    background: #727272; 
+  }
+   
+  /* Handle Color*/
+::-webkit-scrollbar-thumb {
+    background:  rgb(255, 143, 38); 
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(12, 241, 0); 
+  }
+/*makes background of area Chaos Green*/
+.Chaostheme{
+    background-color:rgb(12, 241, 0);
+}
+.ChaosTexT{
+    color: rgb(12, 241, 0);
+    font-family: mySuiGeneris;
+}
+/* makes background SP orange */
+.Sparetheme{
+    background-color: rgb(255, 143, 38);
+}
+.SpareTexT{
+    color: rgb(255, 143, 38);
+    font-family: mySuiGeneris;
+}
+/* makes text small size sui-generis */
+.SuiGensm{
+    font-family: mySuiGeneris;
+    font-size: small;
+}
+/* makes font Sui-Generis */
+.Sui{
+    color: black;
+    font-family: mySuiGeneris;
+}
+/* Makes font Sui-Generis */
+.SuiGenLg{
+    font-family: mySuiGeneris;
+    font-size: large;
+}
+/* centers chamionship countdown div */
+.center{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+/* makes carousel images fit on page */
+.caRImg{
+    width:75% ;
+    height: 600px;
+    object-fit: cover;
+}
+/* makes text quadaptor- use for numbers */
+.Quad{
+    font-family: Quadaptor;
+}
+/* @font-face links creates custom font families */
+@font-face{
+    font-family: mySuiGeneris;
+    src: url(sui_generis_rg.ttf) ;
+}
+@font-face{
+    font-family: Quadaptor;
+    src: url(Quadaptor.tff)
+}
+/* makes the background image of the countdown div */
+.conTAct {
+    width:100%;
+    margin:0 auto;
+    background:url(humanplayer2.jpeg); /*only change this line*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+/* makes the countdown div the right size and color */
+.top{
+    background-color: black;
+    height: 400px;
+    bottom:200px;
+    opacity: .8;
+}
+/* same as .conTAct but for the lower countdown div */
+.champftc{
+    width:100%;
+    margin:0 auto;
+    background:url(IMG_0334_websize2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+/* Support transparent border colors in IE6. */
+* html .top {
+    filter:chroma(color=#123456);
+    border-top-color:#123456;
+    border-left-color:#123456;
+}
+/* makes the color on dark backgrounds slightly opaque/ legible */
+.fooTTExt{
+    color: rgb(255, 255, 255);
+    opacity: .7;
+}
+
+.abt-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* makes the contdown text legible */
+.abt-text{
+    color: rgb(255, 255, 255);
+    opacity: .7;
+}
+/* makes the lower countdown text visible and semi centered */
+.abt-center2 {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* makes the bottom countdown text visible and semi centered */
+.abt-center3 {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* makes the FIRST logo in the about first section small positioned correctily and moved to the left */
+.FIRSTimg{
+    margin: 4.0%;
+    margin-right: 6%;
+    width: 200px;
+    float: left;
+}
+/* makes the about first div have internal spacing  */
+.abtfr{
+    padding: 50px;
+}
+/* makes the first progression images the correct size and spacing */
+.FIRSTimgsm{
+    margin: 5.0%;
+    width: 150px;
+}
+/* makes the first progression logos sit below the first paragraph */
+.progression{
+    margin-top: 10px;
+}
+/* makes the first progression arrows */
+.right {
+    border: solid;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+/* FLL arrow */
+.one{
+    border-color: rgb(237, 28, 36);    
+}
+/* FTC Arrow */
+.two{
+    border-color: rgb(245, 126, 37);    
+}
+/* FRC arroww */
+.three{
+    border-color: rgb(0, 156, 215);    
+}
+#TEams{
+    padding: 1%;
+}
+.ftccover{
+    height: 212;
+    width: 208;
+}
